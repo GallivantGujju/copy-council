@@ -50,8 +50,6 @@ If you're still not posting, it was never those.
 It's [the real reason, in your words].
 ```
 
-**Finance-safe:** CLEAR - no flags.
-
 ## 2. 2026-10-27 - https://x.com/gallivant_gujju/status/2115092572612055270
 
 Original (exact text):
@@ -85,9 +83,6 @@ Drop it below- we're doing a session on exactly this with Offlyn this Saturday.
 Mine: gold, bought at the worst possible time.
 ```
 
-**Finance-safe:** REVIEW
-- MEDIUM: "for us to contribute here" - 'Us' implies Wint Wealth but the affiliation isn't stated in the post. Fix: Add 'I work at Wint' or tag @WintWealth so the affiliation is clear.
-
 ## 3. 2026-09-30 - https://x.com/gallivant_gujju/status/2105302226319356252
 
 Original (exact text):
@@ -117,9 +112,6 @@ Note: This is a quote-post; the quoted post was not read. The line itself circul
 Pessimists sound smart, but optimists make money.
 The catch: optimists also need to survive long enough to be right.
 ```
-
-**Finance-safe:** CLEAR (low notes only)
-- LOW: "optimists make money" - Generalised money claim. Fine as personal opinion; avoid in Wint brand copy. Fix: Keep on a personal account; don't reuse in product ads.
 
 ## 4. 2026-09-29 - https://x.com/gallivant_gujju/status/2104819083405570534
 
@@ -151,9 +143,6 @@ Markets can stay irrational longer than you can stay solvent.
 So size every bet for the irrational part.
 ```
 
-**Finance-safe:** CLEAR (low notes only)
-- LOW: "Markets can stay irrational" - Famous quote with disputed attribution, and the wording here differs from the common version. Fix: Use the common wording and don't attribute it to anyone by name.
-
 ## 5. 2026-09-20 - https://x.com/gallivant_gujju/status/2101564357285126210
 
 Original (exact text):
@@ -184,9 +173,6 @@ Note: This is a quote-post; the quoted post was not read.
 Most people won't give it 3 weeks.
 ```
 
-**Finance-safe:** REVIEW
-- MEDIUM: "be at Pareto in 3 months" - Unverifiable outcome claim (career, not financial). Fix: Keep 'can', not 'will', as the rewrite does; it's an opinion, so frame it as one.
-
 ## 6. 2026-09-19 - https://x.com/gallivant_gujju/status/2101182856940896715
 
 Original (exact text):
@@ -215,8 +201,6 @@ Everyone's launching AI models with grand names.
 India should ship one called Sev- adds crunch to every other model's output.
 ```
 
-**Finance-safe:** CLEAR - no flags.
-
 ## 7. 2026-09-18 - https://x.com/gallivant_gujju/status/2101012274332999729
 
 Original (exact text):
@@ -244,8 +228,6 @@ Why is everyone so proud of using codex or Claude’s limits- kaam karo na. Show
 Hitting your Claude or Codex limit isn't a flex- kaam karo na.
 Show what you built with it.
 ```
-
-**Finance-safe:** CLEAR - no flags.
 
 ## 8. 2026-09-18 - https://x.com/gallivant_gujju/status/2100997759025451237
 
@@ -278,8 +260,6 @@ Went through Instinct expecting it to be faster- it wasn't.
 Anyone else?
 ```
 
-**Finance-safe:** CLEAR - no flags.
-
 ## 9. 2026-09-03 - https://x.com/gallivant_gujju/status/2095531322836230440
 
 Original (exact text):
@@ -311,8 +291,6 @@ Either the servers broke or a new model is about to drop.
 My bet's on the second.
 ```
 
-**Finance-safe:** CLEAR - no flags.
-
 ## 10. 2026-08-19 - https://x.com/gallivant_gujju/status/2089945313482281072
 
 Original (exact text):
@@ -343,8 +321,6 @@ The poor want to look richer among the poor.
 Every brand is selling one of these two feelings.
 ```
 
-**Finance-safe:** CLEAR - no flags.
-
 ---
 
-Rewrites follow `voice/ankit.md`. `[...]` marks something only Ankit can fill in. Finance-safe flags are a hygiene check, not legal advice.
+Rewrites follow `voice/ankit.md`. `[...]` marks something only Ankit can fill in.

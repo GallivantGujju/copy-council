@@ -26,8 +26,6 @@
       },
       "top_fix": "Close the loop: say what the real problem is, in one short line.",
       "rewrite": "AI took away every excuse- time, skill, tools.\nIf you're still not posting, it was never those.\nIt's [the real reason, in your words].",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": null
     },
     {
@@ -54,15 +52,6 @@
       },
       "top_fix": "Lead with the question 'What's your worst investment?' and make the post work without the quoted card.",
       "rewrite": "What's your worst investment?\nDrop it below- we're doing a session on exactly this with Offlyn this Saturday.\nMine: gold, bought at the worst possible time.",
-      "finance_flags": [
-        {
-          "severity": "MEDIUM",
-          "phrase": "for us to contribute here",
-          "issue": "'Us' implies Wint Wealth but the affiliation isn't stated in the post.",
-          "fix": "Add 'I work at Wint' or tag @WintWealth so the affiliation is clear."
-        }
-      ],
-      "finance_verdict": "REVIEW",
       "note": "The 'Mine: gold' line uses Ankit's own reply on 27 Oct 2026 ('I will be dressed up in Gold- Entered at the worst possible time.')."
     },
     {
@@ -89,15 +78,6 @@
       },
       "top_fix": "Add your own one-line twist or example so it reads as yours, not a repost of a well-known line.",
       "rewrite": "Pessimists sound smart, but optimists make money.\nThe catch: optimists also need to survive long enough to be right.",
-      "finance_flags": [
-        {
-          "severity": "LOW",
-          "phrase": "optimists make money",
-          "issue": "Generalised money claim. Fine as personal opinion; avoid in Wint brand copy.",
-          "fix": "Keep on a personal account; don't reuse in product ads."
-        }
-      ],
-      "finance_verdict": "CLEAR (low notes only)",
       "note": "This is a quote-post; the quoted post was not read. The line itself circulates widely and its original author is disputed, so it isn't credited here."
     },
     {
@@ -124,15 +104,6 @@
       },
       "top_fix": "Use the standard wording and add one line of your own take, so it isn't just a reposted quote.",
       "rewrite": "Markets can stay irrational longer than you can stay solvent.\nSo size every bet for the irrational part.",
-      "finance_flags": [
-        {
-          "severity": "LOW",
-          "phrase": "Markets can stay irrational",
-          "issue": "Famous quote with disputed attribution, and the wording here differs from the common version.",
-          "fix": "Use the common wording and don't attribute it to anyone by name."
-        }
-      ],
-      "finance_verdict": "CLEAR (low notes only)",
       "note": "This is a quote-post; the quoted post was not read."
     },
     {
@@ -159,15 +130,6 @@
       },
       "top_fix": "Cut 'This also means', explain 'Pareto' as top 20%, and make the post stand alone.",
       "rewrite": "3 serious months with AI can put you in the top 20% at your job.\nMost people won't give it 3 weeks.",
-      "finance_flags": [
-        {
-          "severity": "MEDIUM",
-          "phrase": "be at Pareto in 3 months",
-          "issue": "Unverifiable outcome claim (career, not financial).",
-          "fix": "Keep 'can', not 'will', as the rewrite does; it's an opinion, so frame it as one."
-        }
-      ],
-      "finance_verdict": "REVIEW",
       "note": "This is a quote-post; the quoted post was not read."
     },
     {
@@ -194,8 +156,6 @@
       },
       "top_fix": "Give the joke a setup line so a cold reader gets the context, then land 'Sev' in a short line.",
       "rewrite": "Everyone's launching AI models with grand names.\nIndia should ship one called Sev- adds crunch to every other model's output.",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": null
     },
     {
@@ -222,8 +182,6 @@
       },
       "top_fix": "Tighten into two short lines: the claim, then the ask.",
       "rewrite": "Hitting your Claude or Codex limit isn't a flex- kaam karo na.\nShow what you built with it.",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": null
     },
     {
@@ -250,8 +208,6 @@
       },
       "top_fix": "Lead with the 3-week refund and make 'Instinct' clearly a name (capitalise or tag it).",
       "rewrite": "A Swiggy refund took 3 weeks.\nWent through Instinct expecting it to be faster- it wasn't.\nAnyone else?",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": "It's not clear from the post what 'instinct' refers to. The rewrite assumes it's a product or channel name; check before using."
     },
     {
@@ -278,8 +234,6 @@
       },
       "top_fix": "Turn the guess into a take people can reply to.",
       "rewrite": "ChatGPT is down.\nEither the servers broke or a new model is about to drop.\nMy bet's on the second.",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": null
     },
     {
@@ -306,10 +260,8 @@
       },
       "top_fix": "Add a third line that gives the 'so what', for marketers or for money.",
       "rewrite": "The rich want to look richer among the rich.\nThe poor want to look richer among the poor.\nEvery brand is selling one of these two feelings.",
-      "finance_flags": [],
-      "finance_verdict": "CLEAR",
       "note": null
     }
   ],
-  "footer": "Rewrites follow `voice/ankit.md`. `[...]` marks something only Ankit can fill in. Finance-safe flags are a hygiene check, not legal advice."
+  "footer": "Rewrites follow `voice/ankit.md`. `[...]` marks something only Ankit can fill in."
 }

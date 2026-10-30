@@ -25,7 +25,7 @@ Most common fix across all 10: the reader needed context they didn't have, or a 
 Rules written 40 to 100 years ago. Still catching me in 2026.
 
 **5/**
-So I packaged it- copy-council. 6 reviewer skills, one council that gives a single fix + rewrite in your voice, and a finance-safe check for Indian fintech copy.
+So I packaged it- copy-council. 6 reviewer skills, and one council that gives a single fix + rewrite in your voice.
 
 Claude Code, Cursor, or a plain prompt. Free.
 
