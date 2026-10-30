@@ -20,7 +20,6 @@ Repository: https://github.com/GallivantGujju/copy-council
 Plus:
 
 - **`council`**: the orchestrator. It runs all six, averages them into a 0-100 score, picks the one fix that helps most, and writes one final rewrite in the author's voice.
-- **`finance-safe`**: flags promised or guaranteed returns, claims nobody can check, and missing risk language. It is tuned for SEBI-style caution in Indian fintech copy. **Not legal advice.**
 - **`voice/`**: voice profiles the rewrites follow. `voice/ankit.md` is the author's own.
 
 ## Repo layout
@@ -36,8 +35,7 @@ copy-council/
 │   ├── schwartz/SKILL.md
 │   ├── sugarman/SKILL.md
 │   ├── hopkins/SKILL.md
-│   ├── cialdini/SKILL.md
-│   └── finance-safe/SKILL.md
+│   └── cialdini/SKILL.md
 ├── voice/ankit.md              # example voice profile
 ├── scripts/council.py          # prompt builder / optional LLM runner / report renderer
 └── examples/
@@ -75,7 +73,7 @@ Copy `skills/*` into your project's skills folder (for example `.cursor/skills/`
 python3 scripts/council.py prompt "your post here" > prompt.txt
 ```
 
-Paste `prompt.txt` into any chat model. It bundles the orchestrator, all six reviewers, the finance-safe check, and your voice file into one prompt.
+Paste `prompt.txt` into any chat model. It bundles the orchestrator, all six reviewers, and your voice file into one prompt.
 
 ## The script
 
@@ -128,7 +126,6 @@ TOP FIX: Tighten into two short lines: the claim, then the ask.
 REWRITE:
 Hitting your Claude or Codex limit isn't a flex- kaam karo na.
 Show what you built with it.
-FINANCE-SAFE: CLEAR
 ```
 
 Across 10 real posts the council averaged 52/100. Hopkins was the harshest reviewer (3.7/10 on average) and Sugarman the kindest (5.9/10).
@@ -144,7 +141,6 @@ Across 10 real posts the council averaged 52/100. Hopkins was the harshest revie
 - The reviewer rules are **paraphrased summaries** of widely taught ideas from David Ogilvy, Gary Halbert, Eugene Schwartz, Joseph Sugarman, Claude Hopkins and Robert Cialdini. They are not quotations and not official material. Read the books; they're better than any skill.
 - This project has no affiliation with, or endorsement from, these authors or their estates.
 - Scores are a model's (or a person's) judgment against a rubric. They don't predict engagement.
-- `finance-safe` is a hygiene check inspired by the general direction of Indian securities-market advertising norms. It is **not legal, regulatory or compliance advice**. Copy from regulated entities needs sign-off from their own compliance team.
 - The skills never publish anything. They write; you decide.
 
 MIT licensed.

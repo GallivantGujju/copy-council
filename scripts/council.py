@@ -45,7 +45,6 @@ def build_prompt(post: str, voice_path: str | None, context: str | None) -> str:
     ]
     for r in REVIEWERS:
         parts.append(f"## Reviewer: {r}\n" + read_skill(r))
-    parts.append("## Finance-safe check\n" + read_skill("finance-safe"))
     if voice_path:
         vp = Path(voice_path)
         if not vp.is_absolute():
@@ -123,14 +122,6 @@ def render_report(path: str) -> str:
             lines.append(f"| {r.title()} | {t['scores'][r]}/10 | {t['reasons'][r]} |")
         lines += ["", f"**Council: {council_score(t['scores'])}/100**", "", f"**Top fix:** {t['top_fix']}", "",
                   "**Rewrite:**", "", "```", t["rewrite"], "```", ""]
-        flags = t.get("finance_flags", [])
-        if flags:
-            lines.append(f"**Finance-safe:** {t.get('finance_verdict', 'REVIEW')}")
-            for f in flags:
-                lines.append(f"- {f['severity']}: \"{f['phrase']}\" - {f['issue']} Fix: {f['fix']}")
-        else:
-            lines.append("**Finance-safe:** CLEAR - no flags.")
-        lines.append("")
     if data.get("footer"):
         lines += ["---", "", data["footer"], ""]
     return "\n".join(lines)

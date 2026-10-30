@@ -1,6 +1,6 @@
 ---
 name: council
-description: Run the full copy council on a short X post or thread - Ogilvy, Halbert, Schwartz, Sugarman, Hopkins and Cialdini each score it 0-10, then aggregate the scores, pick the single most useful fix, write one final rewrite in the author's voice, and run the finance-safe check. Use when the user says "council this", "review my tweet", "score this post", or pastes a draft post.
+description: Run the full copy council on a short X post or thread - Ogilvy, Halbert, Schwartz, Sugarman, Hopkins and Cialdini each score it 0-10, then aggregate the scores, pick the single most useful fix, and write one final rewrite in the author's voice. Use when the user says "council this", "review my tweet", "score this post", or pastes a draft post.
 ---
 
 # Copy council (orchestrator)
@@ -22,7 +22,6 @@ description: Run the full copy council on a short X post or thread - Ogilvy, Hal
    - Stay under 280 characters per post.
    - Keep the author's language mix (e.g. light Hinglish) and punctuation habits.
    - If the original is already strong (council_score >= 75), the rewrite may be a light edit.
-6. **Run `finance-safe`** on both the original and the rewrite. If the rewrite gets a HIGH flag, fix it before returning.
 
 ## Output format
 
@@ -37,7 +36,6 @@ COUNCIL: <council_score>/100
 TOP FIX: <one sentence>
 REWRITE:
 <text>
-FINANCE-SAFE: <verdict> <flags or "none">
 ```
 
 Never post anything. The council writes; the author decides and publishes.
