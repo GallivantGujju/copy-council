@@ -1,0 +1,258 @@
+[
+  {
+    "id": "format-one-liner-pass",
+    "check": "output_format",
+    "post_type": "one-liner",
+    "expect": "pass",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: one-liner\nCOUNCIL: 69/100\n  Ogilvy    8/10  Clear and short.\n  Halbert   7/10  Speaks to the person with a draft.\n  Schwartz  6/10  The angle is familiar. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  One line, easy to read.\n  Hopkins   skipped  A one-line opinion cannot carry proof, so Hopkins does not enter the average.\n  Cialdini  6/10  A light, honest nudge.\nTOP FIX: Say which draft, if the author named one.\nREWRITE:\nShip the draft today.\n"
+  },
+  {
+    "id": "format-quote-post-pass",
+    "check": "output_format",
+    "post_type": "quote-post",
+    "expect": "pass",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: quote-post\nCOUNCIL: 68/100\n  Ogilvy    8/10  It can stand without the quoted card. [dissenter]\n  Halbert   7/10  The reader is named.\n  Schwartz  7/10  Matched to the level. (awareness: problem-aware)\n  Sugarman  7/10  The first line pulls.\n  Hopkins   4/10  One detail, not proof.\n  Cialdini  6/10  One honest lever.\nTOP FIX: Lead with the claim that works without the quoted card.\nREWRITE:\nShip the draft today.\n"
+  },
+  {
+    "id": "format-reel-hook-pass",
+    "check": "output_format",
+    "post_type": "reel-hook",
+    "expect": "pass",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: reel hook\n\nHOOK 1:\n  Ogilvy    8/10  Plain and short.\n  Halbert   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Schwartz  8/10  Fresh enough. (awareness: problem-aware) [dissenter]\n  Sugarman  8/10  The line earns the next one.\n  Hopkins   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Cialdini  skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\nTOP FIX: Keep the noun the viewer can see.\nREWRITE:\nShow the bill, then the fix.\n\nHOOK 2:\n  Ogilvy    6/10  Clear, no fact.\n  Halbert   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Schwartz  6/10  Heard before. (awareness: solution-aware) [dissenter]\n  Sugarman  6/10  Short enough.\n  Hopkins   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Cialdini  skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\nTOP FIX: Cut the second clause.\nREWRITE:\nStop scrolling for this.\n\nHOOK 3:\n  Ogilvy    7/10  Concrete image.\n  Halbert   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Schwartz  4/10  The claim is worn out. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  Easy first line.\n  Hopkins   skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\n  Cialdini  skipped  Reel-hook mode seats Ogilvy, Sugarman and Schwartz only.\nTOP FIX: Replace the worn claim with the picture.\nREWRITE:\nYour first salary, itemised.\n\nBEST HOOK: 1\n"
+  },
+  {
+    "id": "format-hopkins-scored-fail",
+    "check": "output_format",
+    "post_type": "one-liner",
+    "expect": "fail",
+    "error_contains": "hopkins is not seated",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: one-liner\nCOUNCIL: 69/100\n  Ogilvy    8/10  Clear and short.\n  Halbert   7/10  Speaks to the person with a draft.\n  Schwartz  6/10  The angle is familiar. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  One line, easy to read.\n  Hopkins   2/10  Pure opinion.\n  Cialdini  6/10  A light, honest nudge.\nTOP FIX: Say which draft, if the author named one.\nREWRITE:\nShip the draft today.\n"
+  },
+  {
+    "id": "format-two-fixes-fail",
+    "check": "output_format",
+    "post_type": "one-liner",
+    "expect": "fail",
+    "error_contains": "exactly one TOP FIX",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: one-liner\nCOUNCIL: 69/100\n  Ogilvy    8/10  Clear and short.\n  Halbert   7/10  Speaks to the person with a draft.\n  Schwartz  6/10  The angle is familiar. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  One line, easy to read.\n  Hopkins   skipped  A one-line opinion cannot carry proof, so Hopkins does not enter the average.\n  Cialdini  6/10  A light, honest nudge.\nTOP FIX: Say which draft, if the author named one.\nTOP FIX: Also add a fact.\nREWRITE:\nShip the draft today.\n"
+  },
+  {
+    "id": "format-missing-rewrite-fail",
+    "check": "output_format",
+    "post_type": "one-liner",
+    "expect": "fail",
+    "error_contains": "missing REWRITE",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: one-liner\nCOUNCIL: 69/100\n  Ogilvy    8/10  Clear and short.\n  Halbert   7/10  Speaks to the person with a draft.\n  Schwartz  6/10  The angle is familiar. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  One line, easy to read.\n  Hopkins   skipped  A one-line opinion cannot carry proof, so Hopkins does not enter the average.\n  Cialdini  6/10  A light, honest nudge.\nTOP FIX: Say which draft, if the author named one.\n"
+  },
+  {
+    "id": "chars-280-pass",
+    "check": "char_limit",
+    "post_type": "one-liner",
+    "fill": 280,
+    "expect": "pass"
+  },
+  {
+    "id": "chars-281-fail",
+    "check": "char_limit",
+    "post_type": "one-liner",
+    "fill": 281,
+    "expect": "fail"
+  },
+  {
+    "id": "chars-thread-segment-fail",
+    "check": "char_limit",
+    "post_type": "thread",
+    "segments": [
+      40,
+      281
+    ],
+    "expect": "fail"
+  },
+  {
+    "id": "chars-ad-exempt-pass",
+    "check": "char_limit",
+    "post_type": "ad",
+    "fill": 400,
+    "expect": "pass"
+  },
+  {
+    "id": "one-fix-bullets-fail",
+    "check": "output_format",
+    "post_type": "one-liner",
+    "expect": "fail",
+    "error_contains": "extra text",
+    "output": "SIMULATED COUNCIL: paraphrased principles, not a review by these people.\nPOST TYPE: one-liner\nCOUNCIL: 69/100\n  Ogilvy    8/10  Clear and short.\n  Halbert   7/10  Speaks to the person with a draft.\n  Schwartz  6/10  The angle is familiar. (awareness: problem-aware) [dissenter]\n  Sugarman  7/10  One line, easy to read.\n  Hopkins   skipped  A one-line opinion cannot carry proof, so Hopkins does not enter the average.\n  Cialdini  6/10  A light, honest nudge.\nTOP FIX: Do these:\n- cut a word\n- add a fact\nREWRITE:\nShip the draft today.\n"
+  },
+  {
+    "id": "slop-hyphen-voice-pass",
+    "check": "slop_example",
+    "index": 6,
+    "must_contain": "kaam karo na",
+    "expect": "pass"
+  },
+  {
+    "id": "slop-new-number-fail",
+    "check": "slop_example",
+    "index": 4,
+    "must_contain": "Pareto",
+    "expect": "fail",
+    "flag_kind": "number"
+  },
+  {
+    "id": "slop-same-number-pass",
+    "check": "slop",
+    "expect": "pass",
+    "original": "A refund took 3 months.",
+    "rewrite": "A refund took 3 weeks."
+  },
+  {
+    "id": "slop-delve-fail",
+    "check": "slop",
+    "expect": "fail",
+    "flag_kind": "banned_word",
+    "original": "Ship the draft today.",
+    "rewrite": "Let us delve into the draft."
+  },
+  {
+    "id": "slop-contrast-fail",
+    "check": "slop",
+    "expect": "fail",
+    "flag_kind": "pattern",
+    "original": "Ship the draft today.",
+    "rewrite": "It's not a draft, it's a habit.",
+    "also": [
+      {
+        "original": "Ship the draft today.",
+        "rewrite": "This is not just a draft, it's a habit."
+      }
+    ]
+  },
+  {
+    "id": "score-oneliner-hopkins-low",
+    "check": "score",
+    "post_type": "one-liner",
+    "scores": {
+      "ogilvy": 8,
+      "halbert": 7,
+      "schwartz": 6,
+      "sugarman": 7,
+      "hopkins": 1,
+      "cialdini": 6
+    },
+    "expect_score": 69
+  },
+  {
+    "id": "score-oneliner-hopkins-high",
+    "check": "score",
+    "post_type": "one-liner",
+    "scores": {
+      "ogilvy": 8,
+      "halbert": 7,
+      "schwartz": 6,
+      "sugarman": 7,
+      "hopkins": 10,
+      "cialdini": 6
+    },
+    "expect_score": 69
+  },
+  {
+    "id": "score-quote-half",
+    "check": "score",
+    "post_type": "quote-post",
+    "scores": {
+      "ogilvy": 8,
+      "halbert": 7,
+      "schwartz": 7,
+      "sugarman": 7,
+      "hopkins": 4,
+      "cialdini": 6
+    },
+    "expect_score": 68
+  },
+  {
+    "id": "score-reel-three",
+    "check": "score",
+    "post_type": "reel-hook",
+    "scores": {
+      "ogilvy": 8,
+      "sugarman": 8,
+      "schwartz": 5
+    },
+    "expect_score": 70
+  },
+  {
+    "id": "hooks-accept-3",
+    "check": "hooks",
+    "post": "Show the bill.\nStop scrolling.\nYour first salary.",
+    "expect": "pass"
+  },
+  {
+    "id": "hooks-accept-6",
+    "check": "hooks",
+    "post": "Hook 1\nHook 2\nHook 3\nHook 4\nHook 5\nHook 6",
+    "expect": "pass"
+  },
+  {
+    "id": "hooks-reject-2",
+    "check": "hooks",
+    "post": "Show the bill.\nStop scrolling.",
+    "expect": "fail"
+  },
+  {
+    "id": "hooks-reject-7",
+    "check": "hooks",
+    "post": "Hook 1\nHook 2\nHook 3\nHook 4\nHook 5\nHook 6\nHook 7",
+    "expect": "fail"
+  },
+  {
+    "id": "prompt-one-liner",
+    "check": "prompt",
+    "post_type": "one-liner",
+    "post": "Ship the draft today.",
+    "contains": [
+      "kaam karo na",
+      "A one-line opinion cannot carry proof",
+      "[dissenter]",
+      "280",
+      "SIMULATED COUNCIL:"
+    ],
+    "absent": [
+      "Advertising is salesmanship in print.",
+      "finance-safe"
+    ]
+  },
+  {
+    "id": "prompt-reel-hook",
+    "check": "prompt",
+    "post_type": "reel-hook",
+    "post": "Show the bill.\nStop scrolling.\nYour first salary.",
+    "contains": [
+      "The only job of the first line is to get the second line read."
+    ],
+    "absent": [
+      "A-pile, not B-pile",
+      "Advertising is salesmanship in print.",
+      "finance-safe"
+    ]
+  },
+  {
+    "id": "weights-match-skill",
+    "check": "skill_weights"
+  },
+  {
+    "id": "report-legacy-average",
+    "check": "report_legacy"
+  },
+  {
+    "id": "calibration-fixture",
+    "check": "calibration"
+  },
+  {
+    "id": "consistency-one-liner",
+    "check": "consistency",
+    "post_type": "one-liner",
+    "post": "Ship the draft today.",
+    "runs": 3,
+    "tolerance": 1
+  }
+]

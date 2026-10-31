@@ -50,6 +50,8 @@ If you're still not posting, it was never those.
 It's [the real reason, in your words].
 ```
 
+Slop gate: pass
+
 ## 2. 2026-10-27 - https://x.com/gallivant_gujju/status/2115092572612055270
 
 Original (exact text):
@@ -83,6 +85,8 @@ Drop it below- we're doing a session on exactly this with Offlyn this Saturday.
 Mine: gold, bought at the worst possible time.
 ```
 
+Slop gate: pass
+
 ## 3. 2026-09-30 - https://x.com/gallivant_gujju/status/2105302226319356252
 
 Original (exact text):
@@ -112,6 +116,8 @@ Note: This is a quote-post; the quoted post was not read. The line itself circul
 Pessimists sound smart, but optimists make money.
 The catch: optimists also need to survive long enough to be right.
 ```
+
+Slop gate: pass
 
 ## 4. 2026-09-29 - https://x.com/gallivant_gujju/status/2104819083405570534
 
@@ -143,6 +149,8 @@ Markets can stay irrational longer than you can stay solvent.
 So size every bet for the irrational part.
 ```
 
+Slop gate: pass
+
 ## 5. 2026-09-20 - https://x.com/gallivant_gujju/status/2101564357285126210
 
 Original (exact text):
@@ -173,6 +181,9 @@ Note: This is a quote-post; the quoted post was not read.
 Most people won't give it 3 weeks.
 ```
 
+Slop gate: fail
+- number: 20% (number in the rewrite is not in the original)
+
 ## 6. 2026-09-19 - https://x.com/gallivant_gujju/status/2101182856940896715
 
 Original (exact text):
@@ -201,6 +212,8 @@ Everyone's launching AI models with grand names.
 India should ship one called Sev- adds crunch to every other model's output.
 ```
 
+Slop gate: pass
+
 ## 7. 2026-09-18 - https://x.com/gallivant_gujju/status/2101012274332999729
 
 Original (exact text):
@@ -228,6 +241,8 @@ Why is everyone so proud of using codex or Claude’s limits- kaam karo na. Show
 Hitting your Claude or Codex limit isn't a flex- kaam karo na.
 Show what you built with it.
 ```
+
+Slop gate: pass
 
 ## 8. 2026-09-18 - https://x.com/gallivant_gujju/status/2100997759025451237
 
@@ -260,6 +275,8 @@ Went through Instinct expecting it to be faster- it wasn't.
 Anyone else?
 ```
 
+Slop gate: pass
+
 ## 9. 2026-09-03 - https://x.com/gallivant_gujju/status/2095531322836230440
 
 Original (exact text):
@@ -291,6 +308,8 @@ Either the servers broke or a new model is about to drop.
 My bet's on the second.
 ```
 
+Slop gate: pass
+
 ## 10. 2026-08-19 - https://x.com/gallivant_gujju/status/2089945313482281072
 
 Original (exact text):
@@ -321,6 +340,8 @@ The poor want to look richer among the poor.
 Every brand is selling one of these two feelings.
 ```
 
+Slop gate: pass
+
 ---
 
-Rewrites follow `voice/ankit.md`. `[...]` marks something only Ankit can fill in.
+Rewrites follow `skills/council/voice/ankit.md`. `[...]` marks something only Ankit can fill in.

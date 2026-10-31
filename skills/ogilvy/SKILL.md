@@ -31,7 +31,7 @@ Deduct 1 point for each piece of jargon a general reader would not know. Deduct 
 
 ## Rewrite instruction
 
-- Keep the author's voice (read `voice/*.md` if provided).
+- Keep the author's voice (read the voice profile passed in; in this repo, `skills/council/voice/ankit.md`).
 - Stay within 280 characters per post unless the input is a thread.
 - Replace one adjective with one fact if the author supplied a fact. Never invent facts, numbers, or names; if a fact is needed, write `[fact needed]`.
 - Return: `score`, `one_line_reason`, `top_fix`, `rewrite`.
