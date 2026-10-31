@@ -25,7 +25,7 @@ Paraphrased from Claude Hopkins' *Scientific Advertising*. Not quotations.
 | 7-8 | Specific, useful, and the claim could be checked. |
 | 9-10 | Specific, useful, proven (or shows the proof). |
 
-Note: one-line opinion posts will usually score low here. That is expected; Hopkins is the council's "show me" voice, not a veto.
+Note: a one-line opinion cannot carry proof. The council skips Hopkins on one-liners (weight 0) so that low score does not enter the average. On threads, ads, and untyped runs he is seated. When you are seated, score as below. He is the council's "show me" voice, not a veto on the formats where he is seated.
 
 ## Rewrite instruction
 

@@ -1,6 +1,6 @@
 # Launch thread draft (5 posts)
 
-Written in `voice/ankit.md` style. Every number comes from `examples/ankit-10-tweets.md` (council run on 30 Oct 2026). Replace `[repo link]` once the repo is public. Not posted.
+Written in `skills/council/voice/ankit.md` style. Every number comes from `examples/ankit-10-tweets.md` (council run on 30 Oct 2026). Replace `[repo link]` once the repo is public. Not posted.
 
 ---
 

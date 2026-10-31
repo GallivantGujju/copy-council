@@ -1,0 +1,3 @@
+label,post_text,post_type,impressions,likes,reposts,replies,bookmarks,quotes,council_score,notes
+EXAMPLE_NOT_REAL,Example fixture row A. Not a real post.,one-liner,0,0,0,0,0,0,40,Placeholder values so the script can run. Not a measurement.
+EXAMPLE_NOT_REAL,Example fixture row B. Not a real post.,one-liner,0,0,0,0,0,0,80,Placeholder values so the script can run. Not a measurement.
